@@ -6,10 +6,25 @@
 body{
     background-color: #ededed;
 }
-section{
-    margin: 50px auto;
+nav{
+    background-color: #fff;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    width: 100%;
     text-align: center;
+    z-index: 1000;
 }
+nav h3{
+    color: rgb(228, 126, 31);
+    font-size: 60px;
+}
+section{
+    margin: 80px auto;
+    text-align: center;
+    
+}
+
 article{
     display: inline-block;
     background-color: #fff;
@@ -19,6 +34,12 @@ article{
     font-size: 16px;
     margin: 16px;
     width: 210px;
+}
+article:nth-of-type(2){
+    position: relative;
+    margin: -30px;
+    bottom: -10px;
+    
 }
 header{
     margin-bottom: 15px;
